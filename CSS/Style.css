@@ -1,0 +1,111 @@
+/* NABAR CSS */
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+    color: #9933CC!important;
+    }
+    .navbar .navbar-toggler:focus{
+    color: #ff4444;
+    }
+
+
+
+
+/* SECTION ONE START */
+.img1{
+    background-color: orange;
+    /* border-radius: 20px; */
+}
+.three .active{
+    background-color: orange;
+    border-radius: 30px;
+    color: #fff !important;
+}
+
+/* SECTION ONE END */
+
+
+.btn-hover:hover{
+    background-color: orange !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+
+/* FOURE START */
+
+.box, .box1, .box2 {
+    height: 100px;
+    width: 100%;
+    border-radius: 8px;
+    margin: -55px auto 0;
+}
+
+.box {
+    background-color: #88bb29;
+}
+
+.box1 {
+    background-color: #fff;
+}
+
+.box2 {
+    background-color: orange;
+}
+
+/* FOURE END */
+
+
+/* SECTION FIVE START */
+
+.banner3 {
+    background-image: url('../images/banner.avif');
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    color: #fff;
+}
+
+
+/* SECTION FIVE END */
+
+.card-container .card-title {
+    font-size: 14px !important;
+}
+
+.card-container  .btn-transparent {
+    background: transparent;
+}
+
+.card-container  .checked {
+    color: #88bb29;
+}
+
+.card-container  .img-fluid {
+    object-fit: cover;
+}
+
+
+
+.buy-hover:hover{
+    background-color: #304a4c !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+.cardImage .card-img-top{
+ height: 200px !important ;
+ object-fit: cover !important;
+}
+
+@media (min-width: 1280px) {
+    .border-xl-0 {
+        border-top: none !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .width {
+        /* border-top: none !important; */
+        width: 70% !important;
+    }
+}
